@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+#header {
+  position: fixed;
+
+  height: 100px;
+  width: 100%;
+  background: black;
+}
+#navbar {
+  top: 0;
+  left: 0;
+
+  padding: 30px 30px 0 0;
+}
+ul,
+li {
+  display: flex;
+  justify-content: flex-end;
+}
+#navlinks {
+  margin: 0 30px 0 0;
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+}
+#welcome-section {
+  height: 100vh;
+}
+
+.title {
+  margin: 270px 110px 0 0px;
+  font-size: 50px;
+  white-space: normal;
+  font-family: poppins;
+  text-align: center;
+}
+#new {
+  color: #de5b5a;
+}
+
+.hero {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+#img1 {
+  margin: 200px 0 0 100px;
+  max-width: 70%;
+  height: auto;
+}
+
+#para {
+  margin: 0 0 0 20px;
+  font-family: poppins;
+  font-size: 2vw;
+  font-weight: 200;
+  color: #6b6767;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+#btn {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 100%;
+  font-family: poppins;
+  border: none;
+  font-size: 2vw;
+  background: #87d4ff;
+}
+#btn2 {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 100%;
+  border: none;
+  font-size: 2vw;
+  font-family: poppins;
+  background: #ff9594;
+}
+#btn3 {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 100%;
+  font-size: 2vw;
+  border: none;
+  font-family: poppins;
+  background: #d0baff;
+}
+.mid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+#projects {
+  margin: 200px 0 0 0;
+  height: 800px;
+
+  background: #fff;
+}
+.card1 {
+  margin: 150px 0 0 0;
+  height: 200px;
+  max-width: 20vw;
+}
+.buttons {
+  padding: 0 0 40vh 0;
+}
+.img2 {
+  height: 200px;
+  max-width: 20vw;
+}
+.card2 {
+  margin: 150px 0 0 0;
+  height: 200px;
+  max-width: 20vw;
+}
+.card3 {
+  margin: 150px 0 0 0;
+  height: 200px;
+  max-width: 20vw;
+}
+.card4 {
+  margin: 150px 0 0 0;
+  height: 200px;
+  max-width: 20vw;
+}
+.new-para {
+  font-family: poppins;
+  font-size: 24px;
+  color: white;
+}
+.new-para {
+  text-align: center;
+  color: black;
+  font-size: 4vh;
+}
+#card-p {
+  color: black;
+  font-family: poppins;
+  font-size: 3vh;
+  text-align: center;
+}
+@media only screen and(max-width: 480px) {
+  ul {
+    flex-wrap: wrap;
+  }
+}
+#contact {
+  height: 500px;
+  width: 100%;
+  background: white;
+}
+#form {
+  margin: 0 0 0 40vw;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.labels {
+  display: block;
+  font-family: poppins;
+}
+.input {
+  height: 30px;
+  font-family: poppins;
+  width: 40%;
+}
+#footer {
+  height: 18vw;
+  width: 100%;
+  bottom: 0;
+  overflow: hidden;
+  background: black;
+}
+.para-new {
+  font-family: "Great Vibes", cursive;
+  color: white;
+  font-size: 5vw;
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+#profile-link {
+  color: white;
+  font-size: 20px;
+  font-family: poppins;
+}
+#btn4 {
+  height: 30px;
+  width: 40%;
+  background: rgb(212, 77, 77);
+  border: none;
+  margin: 10px 0 0 0;
+  color: white;
+  font-family: poppins;
+}
