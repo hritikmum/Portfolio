@@ -258,18 +258,21 @@ li {
     height: 50px;
     width: 200px;
     border-radius: 20px;
+    cursor: pointer;
   }
   #btn2 {
     margin: 10px 0 40px 0;
     height: 50px;
     width: 200px;
     border-radius: 20px;
+    cursor: pointer;
   }
   #btn3 {
     margin: 10px 0 40px 0;
     height: 50px;
     width: 200px;
     border-radius: 20px;
+    cursor: pointer;
   }
   #para {
     font-size: 2vw;
