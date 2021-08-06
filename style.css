@@ -25,6 +25,7 @@ html {
 ul,
 li {
   display: flex;
+  flex: wrap;
   justify-content: flex-end;
 }
 #navlinks:hover {
@@ -63,7 +64,6 @@ li {
   height: 100vh;
 
   width: 100%;
-  overflow: hidden;
 }
 #img1 {
   margin: 200px 0 0 100px;
@@ -127,13 +127,12 @@ li {
   display: flex;
   justify-content: space-around;
   flex-wrap: nowrap;
-  overflow: hidden;
 }
 
 #projects {
   margin: 60px 0 0 0;
+
   height: 800px;
-  overflow: visible !important;
 
   background: #fff;
 }
@@ -144,6 +143,7 @@ li {
 }
 .buttons {
   padding: 0 0 40vh 0;
+  z-index: 1;
 }
 .img2 {
   height: 200px;
@@ -209,7 +209,7 @@ li {
   background: white;
 }
 #form {
-  margin: 0 0 0 40vw;
+  margin: 0 0 0 35vw;
 
   display: flex;
   flex-direction: column;
@@ -220,15 +220,15 @@ li {
   font-family: poppins;
 }
 .input {
-  height: 30px;
+  height: 50px;
   font-family: poppins;
-  width: 40%;
+  width: 60%;
 }
 #footer {
   height: 200px;
   width: 100%;
   bottom: 0;
-  overflow: hidden;
+
   background: black;
 }
 .para-new {
@@ -244,37 +244,45 @@ li {
   font-family: poppins;
 }
 #btn4 {
-  height: 30px;
-  width: 40%;
+  height: 50px;
+  width: 60%;
   background: rgb(212, 77, 77);
   border: none;
   margin: 10px 0 0 0;
   color: white;
   font-family: poppins;
 }
-@media only screen and (max-width: 750px) {
-  #btn {
+@media only screen and (max-width: 626px) {
+  .buttons {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* #btn {
     margin: 10px 0 40px 0;
-    height: 50px;
-    width: 200px;
-    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+
     cursor: pointer;
   }
   #btn2 {
     margin: 10px 0 40px 0;
-    height: 50px;
-    width: 200px;
-    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+
     cursor: pointer;
   }
   #btn3 {
     margin: 10px 0 40px 0;
-    height: 50px;
-    width: 200px;
-    border-radius: 20px;
+    height: 80px;
+    width: 80px;
+
     cursor: pointer;
-  }
+  } */
   #para {
     font-size: 2vw;
+  }
+  .hero {
+    height: 150vh;
   }
 }
