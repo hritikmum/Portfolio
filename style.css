@@ -260,22 +260,22 @@ li {
   }
   #btn {
     margin: 10px 0 40px 0;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 
     cursor: pointer;
   }
   #btn2 {
     margin: 10px 0 40px 0;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 
     cursor: pointer;
   }
   #btn3 {
     margin: 10px 0 40px 0;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 
     cursor: pointer;
   }
@@ -283,6 +283,6 @@ li {
     font-size: 2vw;
   }
   .hero {
-    height: 150vh;
+    height: 100vh;
   }
 }
